@@ -1,0 +1,52 @@
+main{
+    display: flex;
+    height: 650px;
+}
+
+.left{
+    flex: left;
+    width: 45%;
+    height: 100%;
+    background: #E6DAD1;
+}
+
+.left h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 180px;
+}
+
+.left h2{
+    
+    font-size: 50px;
+}
+
+.left p,h2,h1,input{
+    text-align: center;
+    color: #9D5A4D;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #F6F1EE;
+    color: #9D5A4D;
+    cursor: pointer;
+}
+
+.right{
+    float:right;
+    width: 55%;
+    background: white;
+    height: 100%;
+}
+
+.face1{
+    height:650px;
+    width: 100%;
+}
