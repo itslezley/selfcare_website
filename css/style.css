@@ -1,0 +1,157 @@
+main{
+    display: flex;
+    height: 650px;
+}
+
+section{
+    height: 100vh;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.left{
+    flex: left;
+    width: 45%;
+    height: 100%;
+    background: #E6DAD1;
+}
+
+.left h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 180px;
+}
+
+.left h2{
+    
+    font-size: 50px;
+}
+
+.left p,h2,h1,input{
+    text-align: center;
+    color: #9D5A4D;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #F6F1EE;
+    color: #9D5A4D;
+    cursor: pointer;
+}
+
+.right{
+    float:right;
+    width: 55%;
+    background: white;
+    height: 100%;
+}
+
+.face1{
+    height:650px;
+    width: 100%;
+}
+
+
+
+/* page 3*/
+#page3{
+    background: #F6F1EE;
+    display: flex;
+    width: 100%;
+}
+.cover{
+    flex: left;
+    width: 45%;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.img{
+    float:right;
+    width: 50%;
+    height: 100%;
+}
+
+#page3 h1{
+    width: fit-content;
+    margin-left: 55px;
+    font-size: 25px;
+}
+
+#page3 p{
+    margin-left: 100px;
+    width: 260px;
+    font-size: 30px;
+}
+
+
+#page3 img{
+    height: 560px;
+    width: 530px;
+    margin-right: 160px;
+    margin-top: 70px;
+}
+
+/*end of page 3*/
+
+/*last page*/
+
+#page5{
+    background: #E6DAD1;
+    height: fit-content;
+}
+.items{
+    display: flex;
+}
+
+#page5 h2{
+    padding-top: 100px;
+}
+
+#page5 h1{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#page5 h4{
+    font-size: 25px;
+    color: #9D5A4D;
+}
+.left-side{
+    flex: left;
+    width: 25%;
+    margin-left: 10px;
+}
+
+.left-side p{
+    font-size: 24px;
+    color: #9D5A4D;
+}
+
+.right-side{
+    float:right;
+    width: 72%;
+    margin-left: 10px;
+}
+
+
+.right-side div{
+    float: right;
+    width: 33%;
+    margin-left: 0px;
+}
+
+#page5 p{
+    color: #9D5A4D;
+}
+
+/*end of last page*/
